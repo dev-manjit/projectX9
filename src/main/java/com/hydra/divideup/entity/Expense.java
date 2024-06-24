@@ -1,5 +1,6 @@
 package com.hydra.divideup.entity;
 
+import com.hydra.divideup.enums.Currency;
 import java.time.LocalDateTime;
 import lombok.Getter;
 import lombok.Setter;
@@ -14,7 +15,7 @@ public class Expense {
   private String userId;
   private String groupId;
   private String paidBy;
-  private String currency;
+  private Currency currency;
   private double amount;
   private LocalDateTime date;
   private String category;
